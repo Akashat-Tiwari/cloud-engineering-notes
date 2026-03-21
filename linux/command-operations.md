@@ -12,4 +12,6 @@
 
 * ctrl + C (cancel current command) : This cancels the current command (Broken command) and returns you to normal prompt
 
+* The pipe '|' takes the output of the left command and gives it as input to the right command. ex: ls | wc -l => counts the lines
+
 
