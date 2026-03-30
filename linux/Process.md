@@ -46,7 +46,7 @@ TiD : Thread ID number, same as Pid if process is single-threaded. For multi thr
 
 * echo lineTwo >> filename : append the content without deleting older one 
 
-## Text Editors : 
+## Text Editors : creating or modifying system configuration files 
 
 * nano : a simple text based editor
 
@@ -86,6 +86,8 @@ TiD : Thread ID number, same as Pid if process is single-threaded. For multi thr
 
 * {important} :wq : exit vi and save the file
 
+* :! wc % : used to display the word count 
+
 ### modes in vi : 
 
 * by default :  command mode
@@ -93,3 +95,5 @@ TiD : Thread ID number, same as Pid if process is single-threaded. For multi thr
 * type i to enter insert mode (used to insert content) and esc to return back to command mode
 
 * type : to enter line mode (each key is an external command) and esc to return back to command mode
+
+### 
