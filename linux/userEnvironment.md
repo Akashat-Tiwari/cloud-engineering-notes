@@ -53,8 +53,8 @@
 
 * sort file1 : sort the lines in the specified file, according to the characters at the beginning of each line
 
-* uniq :
-
+* uniq : used to remove duplicate consecutive lines (often used with sort as consecutive lines are required) only prints the file after operation not actually edit it (sort -u filename or sort filename | uniq) 
+ 
 * paste :
 
 * join :
